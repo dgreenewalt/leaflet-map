@@ -21,7 +21,7 @@ var style_Rail_6 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(149,149,149,1.0)', lineDash: null, lineCap: 'round', lineJoin: 'round', width: 2}),
+        stroke: new ol.style.Stroke({color: 'rgba(200,50,50,1.0)', lineDash: null, lineCap: 'round', lineJoin: 'round', width: 2}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
